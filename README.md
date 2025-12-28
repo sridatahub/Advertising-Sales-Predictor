@@ -38,5 +38,4 @@ The Streamlit web interface allows users to enter advertisement spending values 
 
 This project demonstrates how data-driven insights can support businesses in optimizing marketing budgets. By analyzing the impact of different advertising channels, organizations can make informed decisions to maximize sales performance and return on investment.
 
-![Ad Sales Prediction App](screenshots/ad_sales_prediction_app.PNG)
 

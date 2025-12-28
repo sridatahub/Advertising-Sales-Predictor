@@ -1,40 +1,43 @@
-# Advertising-Sales-Predictor
-A Streamlit-based machine learning app that predicts product sales using TV, Radio, and Newspaper advertising costs.
+# Ad Sales Prediction App
 
-Project Overview
+This project presents a machine learning application that predicts product sales based on advertising budgets across TV, Radio, and Newspaper channels. It provides a simple and effective way to understand how marketing spend influences sales performance.
 
-This project focuses on predicting product sales based on advertising budgets allocated across TV, Radio, and Newspaper channels. It uses a machine learning approach to model the relationship between marketing investments and sales performance, helping businesses make data-driven decisions.
+## Project Overview
 
-Model Performance
+The application is built using a Linear Regression model trained on historical advertising data. The trained model is deployed as an interactive web application using Streamlit, allowing users to input advertising costs and instantly obtain predicted sales values.
 
-A Linear Regression model was trained to predict sales with high accuracy. The model achieved an R² score of 0.90, indicating that it explains approximately 90% of the variance in sales data. This strong performance highlights the effectiveness of advertisement spending as a predictor of sales outcomes.
+## Model Performance
 
-For example, when the actual sales value was 22.1, the model predicted 21.37, demonstrating minimal prediction error and strong reliability.
+The Linear Regression model achieved an R² score of 0.90, indicating that approximately 90% of the variance in sales is explained by the advertising features. This reflects a strong relationship between ad spending and sales outcomes.
 
-Algorithm Used
+For example, when the actual sales value was 22.1, the model predicted 21.37, demonstrating high prediction accuracy and reliability.
 
-Linear Regression is used to model the linear relationship between advertising budgets and sales. Its simplicity, interpretability, and strong predictive performance make it well-suited for this problem.
+## Algorithm Used
 
-Input Features
+Linear Regression is used to model the linear relationship between advertising budgets and sales. Its interpretability and strong performance make it well suited for this prediction task.
 
-TV Advertising Cost
+## Input Features
 
-Radio Advertising Cost
+- TV Advertising Cost  
+- Radio Advertising Cost  
+- Newspaper Advertising Cost  
 
-Newspaper Advertising Cost
+## Output
 
-Output
+- Predicted Sales Value  
 
-Predicted Sales Value
+## Application Workflow
 
-Application Workflow
+The project follows an end-to-end machine learning workflow, including data preprocessing, model training, evaluation, and deployment. The trained model is saved and reused within the Streamlit application for real-time predictions.
 
-This project demonstrates an end-to-end machine learning workflow, beginning with data preprocessing and model training, followed by model evaluation and deployment.
+## Web Application
 
-Web Application
+The Streamlit web interface allows users to enter advertisement spending values for different media channels and instantly receive predicted sales results through a clean and user-friendly interface.
 
-The trained model is deployed as an interactive web application using Streamlit. The application allows users to enter advertising spending values and instantly receive predicted sales outputs through a simple and intuitive interface.
+## Business Impact
 
-Business Impact
+This project demonstrates how data-driven insights can support businesses in optimizing marketing budgets. By analyzing the impact of different advertising channels, organizations can make informed decisions to maximize sales performance and return on investment.
 
-This project highlights how data-driven insights can help businesses optimize marketing budgets and improve sales performance. By understanding the impact of different advertising channels, organizations can allocate resources more effectively to maximize returns.
+## Application Screenshot
+
+![Ad Sales Prediction App](screenshots/ad_sales_prediction_app.png)
